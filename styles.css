@@ -1,0 +1,189 @@
+/********** All styles **********/
+:root {
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	user-select: none;
+	--text-primary: #b6b6b6;
+	--text-secondary: #ececec;
+	--color-primary: #23232e;
+	--color-secondary: #141418;
+	--transition-speed: 0.6s;
+}
+
+body {
+	background: grey;
+	color: var(--text-secondary);
+}
+
+body::-webkit-scrollbar {
+	width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+	background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: var(--color-primary);
+}
+
+h1 {
+    display: block;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 25.00%;
+    padding: 5px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.container2 {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    padding: 2%;
+    position: absolute;
+    top: 800px;
+    left: 0;
+    bottom: 0;
+    right: 325px;
+}
+
+h5 {
+    position: absolute;
+    left: 550px;
+    top: 435px;
+}
+
+h6 {
+    position: absolute;
+    left: 370px;
+    top: 440px;
+}
+
+#rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #000000;
+    padding: 20px;
+    width: 900px;
+    height: 350px;
+    text-align: left;
+    display: inline-block;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    height: 5rem;
+    background-color: var(--color-primary);
+}
+
+.topnav li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    font-size: 1.5rem;
+    width: 7rem;
+    height: 100%;
+    color: var(--text-secondary);
+    filter: grayscale(100%) opacity(0.7);
+	transition: var(--transition-speed);
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    text-decoration: none;
+}
+
+/* Change the color of links on hover */
+.topnav li:hover {
+    filter: grayscale(0%) opacity(1);
+	background: var(--color-secondary);
+	color: var(--text-secondary);
+}
+
+/* Add a color to the active/current link */
+.topnav li.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pos {
+    margin: 0;
+    position: absolute;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(70%, 5%);
+}
+
+.tabl2 {
+    float: left;
+    width: 20%;
+}
+
+.tabl{
+    float: left;
+    width: 20%;
+}
+
+.tabl3 {
+    width: 20%;
+    position: absolute;
+    top: 500px;
+    right: 100px;
+}
+
+.tabl4 {
+    float: left;
+    width: 20%;
+}
+
+.tabl5 {
+    float: left;
+    width: 20%;
+}
+
+table, td, tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 40%;
+    table-layout: fixed;
+    margin-right: 150px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+table {
+    float: right;
+}
+
+textarea{
+    border: 3px solid black;
+    resize: none;
+}
+
+#disp1{
+    float: left;
+}
+
+#disp2{
+    float: left;
+}
+
